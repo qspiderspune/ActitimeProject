@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Customer successfully created]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40190" started-at="2020-02-21T04:59:27Z" finished-at="2020-02-21T05:00:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40190" started-at="2020-02-21T04:59:27Z" finished-at="2020-02-21T05:00:07Z">
+      <class name="com.actitime.test.CustomerModule">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.actitime.test.CustomerModule@256216b3]" name="openBrowser" is-config="true" duration-ms="8105" started-at="2020-02-21T10:29:27Z" finished-at="2020-02-21T10:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.test.CustomerModule@256216b3]" name="login" is-config="true" duration-ms="6859" started-at="2020-02-21T10:29:35Z" finished-at="2020-02-21T10:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.actitime.test.CustomerModule@256216b3]" name="testCreateCustomer" duration-ms="14647" started-at="2020-02-21T10:29:42Z" finished-at="2020-02-21T10:29:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Customer successfully created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.test.CustomerModule@256216b3]" name="logout" is-config="true" duration-ms="9573" started-at="2020-02-21T10:29:57Z" finished-at="2020-02-21T10:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.test.CustomerModule@256216b3]" name="closeBrowser" is-config="true" duration-ms="983" started-at="2020-02-21T10:30:06Z" finished-at="2020-02-21T10:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.test.CustomerModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
